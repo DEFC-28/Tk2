@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THUGKEED-MD PAIR CODE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Navigation Panel */
+    .nav-panel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(255, 0, 0, 0.5);
+    }
+    
+    .nav-logo {
+      color: #ff0000;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 18px;
+    }
+    
+    .nav-link {
+      color: #ffcc00;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 4px 8px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    
+    .nav-link:hover {
+      background-color: #ff0000;
+      color: #000;
+      box-shadow: 0 0 10px #ff0000;
+    }
+
+    /* Basic Page Setup */
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow-x: hidden;
+      background: url('https://files.catbox.moe/ahh2sa.jpg') no-repeat center center fixed;
+      background-size: cover;
+      padding-top: 70px; /* Added to account for fixed nav */
+    }
+   
+    /* Semi-transparent container */
+    .body-frame {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+      text-align: center;
+      max-width: 500px;
+      width: 90%;
+      z-index: 1;
+      margin-top: 20px;
+    }
+
+    /* Title Styling */
+    .body-frame h3 {
+      font-size: 2.5rem;
+      color: #ff0000;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .body-frame h6 {
+      font-size: 1rem;
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+
+    /* Text input and button container */
+    .input-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .input-container input {
+      width: 70%;
+      padding: 10px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #fff;
+      background-color: #222;
+      box-shadow: inset 0 0 10px #ff0000;
+      transition: all 0.3s ease;
+    }
+
+    .input-container input:focus {
+      background-color: #111;
+      color: #ffcc00;
+      box-shadow: 0 0 15px #ffcc00;
+    }
+
+    .input-container button {
+      padding: 12px 20px;
+      background-color: #ff0000;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 10px;
+      border: 2px solid #ff0000;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .input-container button:hover {
+      background-color: #cc0000;
+      border-color: #cc0000;
+      color: #000;
+    }
+
+    .centered-text {
+      color: #fff;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    #waiting-message {
+      display: none;
+      color: #ffcc00;
+      font-size: 1.1rem;
+    }
+
+    #pair {
+      font-size: 1.2rem;
+      color: #ffcc00;
+    }
+
+    audio {
+      display: none;
+    }
+
+    /* Neon Placeholder Glow */
+    ::placeholder {
+      color: #ffcc00;
+      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ffcc00;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 500px) {
+      .body-frame {
+        padding: 20px;
+      }
+      
+      .nav-panel {
+        padding: 10px 15px;
+      }
+      
+      .nav-logo {
+        font-size: 1.2rem;
+      }
+      
+      .nav-link {
+        font-size: 0.9rem;
+        padding: 3px 6px;
+      }
+
+      .input-container input, .input-container button {
+        padding: 10px;
+        font-size: 1rem;
+      }
+
+      .body-frame h3 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Panel -->
+  <nav class="nav-panel">
+    <div class="nav-logo">THUGKEED</div>
+    <div class="nav-links">
+      <a href="https://chaosconfigs.netlify.app/e7" class="nav-link">Configs</a>
+      <a href="https://whatsapp.com/channel/0029VbAaddE3mFYETAiho63t" class="nav-link">Contact...</a>
+    </div>
+  </nav>
+
+  <div class="body-frame">
+    <hc><hc><font color="lime">🤖𝐓𝐇𝐔𝐆𝐊𝐄𝐄𝐃-𝐌𝐃-𝐕5🧊🩷🚀</h6>
+    <p class="centered-text"><hc><hc><font color="pink">☞︎︎︎𝑀𝑎𝑑𝑒 𝑏𝑦 𝑡ℎ𝑢𝑔𝑘𝑒𝑒𝑑☂︎.</h6>
+    <p class="centered-text"><hc><hc><font color="yellow">𝙴𝙽𝚃𝙴𝚁 �𝙾𝚄𝚁 𝙿𝙷𝙾𝙽𝙴 𝙽𝚄𝙼𝙱𝙴𝚁 𝚆𝙸𝚃𝙷 �𝙾𝚄𝙽𝚃𝚁𝚈 𝙲𝙾𝙳𝙴 🥸 ᵉ.ᵍ(+27...).</p> 
+
+    <div class="input-container">
+      <input placeholder="27655XXXX" type="number" id="number" name="">
+      <button id="submit">sᴜʙᴍɪᴛ</button>
+    </div>
+
+    <a id="waiting-message" class="centered-text">Give me a sec..🥹</a>
+    <main id="pair"></main>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/m4ss5v.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
+  <script>
+    const pairElement = document.getElementById("𝙿𝙰𝙸𝚁");
+    const submitButton = document.getElementById("𝚂𝚄𝙱𝙼𝙸𝚃");
+    const numberInput = document.getElementById("𝙽𝚄𝙼𝙱𝙴𝚁");
+
+    async function Copy() {
+      const copyText = document.getElementById("𝐶𝑜𝑝𝑦");
+      await navigator.clipboard.writeText(copyText.innerText.replace("CODE: ", ""));
+      copyText.innerText = "𝐶𝑜𝑝𝑖𝑒𝑑";
+      copyText.style.color = "lime";
+      setTimeout(() => {
+        copyText.innerText = `CODE: ${copyText.dataset.code}`;
+        copyText.style.color = "white";
+      }, 500);
+    }
+
+    submitButton.addEventListener("click", async (e) => {
+      e.preventDefault();
+      const number = numberInput.value.trim();
+      if (!number || number.length < 11) {
+        pairElement.innerHTML = `<p style="color: red;">𝑰𝒏𝒗𝒂𝒍𝒊𝒅 𝑵𝒖𝒎𝒃𝒆𝒓. 𝑷𝒍𝒆𝒂𝒔𝒆 𝑬𝒏𝒕𝒆𝒓 𝑾𝒊𝒕𝒉 𝑪𝒐𝒖𝒏𝒕𝒓𝒚 𝑪𝒐𝒅𝒆 e.g +27655....</p>`;
+        return;
+      }
+      pairElement.innerHTML = `<p style="color: purple;">Processing your request...</p>`;
+      try {
+        const response = await axios.get(`/code?number=${number}`);
+        const code = response.data.code || "Service Unavailable";
+        pairElement.innerHTML = `<p id="copy" data-code="${code}" onclick="Copy()" style="color: orange; cursor: pointer;">CODE: <span style="color: white;">${code}</span></p>`;
+      } catch (error) {
+        pairElement.innerHTML = `<p style="color: pink;">Error: 𝑓𝑎𝑖𝑙𝑒𝑑 𝑡𝑜 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑒 𝑡ℎ𝑒 𝑐𝑜𝑑𝑒, 𝑝𝑙𝑒𝑎𝑠𝑒 𝑟𝑒𝑙𝑜𝑎𝑑 𝑡ℎ𝑒 𝑠𝑖𝑡𝑒 𝑜𝑟  𝐶𝑜𝑛𝑡𝑎𝑐𝑡 @𝑇ℎ𝑢𝑔𝑘𝑒𝑒𝑑 😜🤤.</p>`;
+      }
+    });
+  </script>
+
+</body>
+</html>
